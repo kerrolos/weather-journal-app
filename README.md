@@ -1,5 +1,10 @@
 # Weather-Journal App Project
 
+## How To Install
+- npm install express 
+- npm install body-parser 
+- npm install cors 
+
 ## Overview
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
