@@ -66,9 +66,9 @@ const uiUpdate = async () => {
     try {
         const lastData = await req.json();
 
-        document.getElementById('date').innerHTML += lastData.date;
-        document.getElementById('temp').innerHTML+= lastData.temp;
-        document.getElementById('content').innerHTML += lastData.content;
+        document.getElementById('date').innerHTML  = lastData.date;
+        document.getElementById('temp').innerHTML = lastData.temp;
+        document.getElementById('content').innerHTML = lastData.content;
     } catch (e) {
         // Error Log
         console.log('error' , e); console.log('Line 73')
